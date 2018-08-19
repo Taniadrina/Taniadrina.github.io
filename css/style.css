@@ -1,0 +1,133 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.otf');
+    font-weight: bold;
+}
+
+.main_header {
+  background-color: white;
+  background-image: url(../Images/patron_header.png);
+  background-size: contain;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.layer_icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+  margin-top: 5px;
+  margin-left: 38px;
+  margin-bottom: 12px;
+  width: 28%;
+  height: auto;
+}
+
+.sociales {
+  text-align: right;
+  margin-right: 45px;
+}
+
+.sociales img {
+  width: 4%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.menu-color {
+  background-color: rgb(216, 216, 216);
+}
+
+.menu-item {
+  font-family: 'Montserrat';
+  color: rgb(77,77,77);
+  margin-left: 10px;
+}
+
+.menu {
+  margin-right: 30px;
+  margin-bottom: 0px;
+}
+
+.menu li {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  border-bottom: 4px solid rgb(77,77,77);
+  color: rgb(77,77,77);
+  padding-bottom: 3px;
+}
+
+ul {text-align: right; width: 100%; list-style-type: none; display: inline-block; float: right;}
+li { display: inline-block;}
+
+/*.body_shadow {
+  box-shadow: 0px 10px 10px 15px #272727;
+}*/
+
+.body_shadow {
+    background: none repeat scroll 0 0 #EEEEEE;
+
+}
+
+.body_shadow:before {
+    box-shadow: -15px 0 15px -15px inset;
+    content: " ";
+    height: 100%;
+    left: -15px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+}
+.body_shadow:after {
+    box-shadow: 15px 0 15px -15px inset;
+    content: " ";
+    height: 100%;
+    position: absolute;
+    right: -15px;
+    width: 15px;
+}
+
+
+.main_img {
+  background-image: url(../Images/main_paneles.png);
+}
+
+.main_img h1 {
+  width: 80%;
+  margin: 10%;
+  overflow: hidden;
+}
